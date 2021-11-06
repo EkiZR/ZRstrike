@@ -1,0 +1,117 @@
+
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.center {
+ text-align: center;
+ border: solid;
+ border-radius: 100px;
+ font-style: arial;
+ font-size: 25px;
+animation-name: berubah;
+    animation-duration: 5s;
+    animation-iteration-count: 200;
+    animation-direction: ease;
+}
+
+@keyframes berubah {
+    0%   {background-color: yellow; left:0px; top:0px;}
+    25%  {background-color: red; left:200px; top:0px;}
+    50%  {background-color: yellow; left:200px; top:200px;}
+    75%  {background-color: green; left:0px; top:200px;}
+    100% {background-color: yellow; left:0px; top:0px;}
+}
+ 
+ .center2 {
+ text-align: center;
+ margin-right: 6vh;
+ margin-left: 6vh;
+ border: solid;
+ border-radius: 100px;
+ border-top-color: blue;
+ border-right-color: skyblue;
+ border-left-color: skyblue;
+ border-bottom-color: deepskyblue;
+animation-name: berubah;
+    animation-duration: 10s;
+    animation-iteration-count: 200;
+    animation-direction: ease;
+}
+
+@keyframes berubah {
+    0%   {background-color: yellow; left:0px; top:0px;}
+    25%  {background-color: red; left:200px; top:0px;}
+    50%  {background-color: yellow; left:200px; top:200px;}
+    75%  {background-color: green; left:0px; top:200px;}
+    100% {background-color: yellow; left:0px; top:0px;}
+}
+ 
+ 
+img {
+margin-right: 100hv;
+height: 100px;
+ width: 100px;
+ border-radius: 50px;
+ border: solid 5px; 
+ }
+ 
+ .Logo {
+ font-size: 20px;
+ text-align: center;
+ margin-left: 9vh;
+ margin-right: 9vh;
+ margin-bottom: 1vh;
+ margin-top: 0vh;
+ border: solid;
+ border-radius: 100px;
+    animation-name: berubah;
+    animation-duration: 5s;
+    animation-iteration-count: 200;
+    animation-direction: ease;
+}
+
+@keyframes berubah {
+    0%   {background-color: yellow; left:0px; top:0px;}
+    25%  {background-color: red; left:200px; top:0px;}
+    50%  {background-color: yellow; left:200px; top:200px;}
+    75%  {background-color: green; left:0px; top:200px;}
+    100% {background-color: yellow; left:0px; top:0px;}
+}
+
+.Logo1 {
+ font-size: 20px;
+ text-align: center;
+ margin-left: 12vh;
+ margin-right: 12vh;
+ margin-bottom: 0vh;
+ margin-top: 0vh;
+ border: solid;
+ border-radius: 100px;
+    animation-name: berubah;
+    animation-duration: 5s;
+    animation-iteration-count: 200;
+    animation-direction: ease;
+}
+
+@keyframes berubah {
+    0%   {background-color: yellow; left:0px; top:0px;}
+    25%  {background-color: red; left:200px; top:0px;}
+    50%  {background-color: yellow; left:200px; top:200px;}
+    75%  {background-color: green; left:0px; top:200px;}
+    100% {background-color: yellow; left:0px; top:0px;}
+}
