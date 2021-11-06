@@ -115,3 +115,47 @@ height: 100px;
     75%  {background-color: green; left:0px; top:200px;}
     100% {background-color: yellow; left:0px; top:0px;}
 }
+
+
+
+ .Logo2 {
+
+ font-size: 20px;
+
+ text-align: center;
+
+ margin-left: 10vh;
+
+ margin-right: 10vh;
+
+ margin-bottom: 1vh;
+
+ margin-top: 0vh;
+
+ border: solid;
+
+ border-radius: 100px;
+
+    animation-name: berubah;
+
+    animation-duration: 5s;
+
+    animation-iteration-count: 200;
+
+    animation-direction: ease;
+
+}
+
+@keyframes berubah {
+
+    0%   {background-color: yellow; left:0px; top:0px;}
+
+    25%  {background-color: red; left:200px; top:0px;}
+
+    50%  {background-color: yellow; left:200px; top:200px;}
+
+    75%  {background-color: green; left:0px; top:200px;}
+
+    100% {background-color: yellow; left:0px; top:0px;}
+
+}
